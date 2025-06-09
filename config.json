@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "user-management": {
+      "command": "npx",
+      "args": ["tsx", "/home/nihal/testing/index.ts"]
+    }
+  }
+}
