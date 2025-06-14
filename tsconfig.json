@@ -15,7 +15,7 @@
   },
   "include": [
     "*.ts"
-  ],
+, "calendar.ts"  ],
   "exclude": [
     "node_modules",
     "dist"

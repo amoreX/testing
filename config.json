@@ -2,7 +2,25 @@
   "mcpServers": {
     "user-management": {
       "command": "npx",
-      "args": ["tsx", "/home/nihal/testing/index.ts"]
+      "args": ["tsx", "D:\\testing\\index.ts"]
+    },
+    "voice-tts": {
+      "command": "npx",
+      "args": ["tsx", "D:\\testing\\voice.ts"]
+    },
+    "voice-recorder": {
+      "command": "npx",
+      "args": ["tsx", "D:\\testing\\voice-mcp.ts"]
+    },
+    "google-calendar": {
+      "command": "npx",
+      "args": ["tsx", "D:\\testing\\calendar.ts"],
+      "env": {
+        "GOOGLE_CLIENT_ID": "401330684675-fg8cd3tlr7iutj9l9ckh3rop07q7ctfj.apps.googleusercontent.com",
+        "GOOGLE_CLIENT_SECRET": "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",
+        "GOOGLE_REDIRECT_URI": "http://localhost:3000/oauth2callback",
+        "GOOGLE_REFRESH_TOKEN": "1//0gUpCoJM5SshrCgYIARAAGBASNwF-L9Irsd7AwSsehJzy0BgNvCRuiV647XqvGrZLaeg19McY51VydQ5Q2k0LKQWXgD8CAJW8Zo8"
+      }
     }
   }
 }
