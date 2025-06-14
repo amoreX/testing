@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "user-management": {
+      "command": "node",
+      "args": ["C:\\Users\\Nihal\\code\\testing\\dist\\index.js"],
+      "env": {
+        "SUPABASE_URL": "https://fyhwbvtutrlenkwjiffi.supabase.co",
+        "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5aHdidnR1dHJsZW5rd2ppZmZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY4OTg5ODMsImV4cCI6MjA2MjQ3NDk4M30.o0u2JLKF8sxBzEP4VCCQIOjb8KKkxn7UyOltV8qo5vI"
+      }
+    },
+    "voice-tts": {
+      "command": "npx",
+      "args": ["tsx", "D:\\testing\\voice.ts"]
+    },
+    "voice-recorder": {
+      "command": "npx",
+      "args": ["tsx", "D:\\testing\\voice-mcp.ts"]
+    },
+    "google-calendar": {
+      "command": "npx",
+      "args": ["tsx", "D:\\testing\\calendar.ts"],
+      "env": {
+        "GOOGLE_CLIENT_ID": "401330684675-fg8cd3tlr7iutj9l9ckh3rop07q7ctfj.apps.googleusercontent.com",
+        "GOOGLE_CLIENT_SECRET": "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",
+        "GOOGLE_REDIRECT_URI": "http://localhost:3000/oauth2callback",
+        "GOOGLE_REFRESH_TOKEN": "1//0gUpCoJM5SshrCgYIARAAGBASNwF-L9Irsd7AwSsehJzy0BgNvCRuiV647XqvGrZLaeg19McY51VydQ5Q2k0LKQWXgD8CAJW8Zo8"
+      }
+    }
+  }
+}
